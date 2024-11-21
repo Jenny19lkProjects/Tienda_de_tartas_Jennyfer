@@ -1,0 +1,50 @@
+.encabezado{
+			
+	background-image: url('../images/encabezado.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+	
+		.titulo_h1{
+			font-family: 'Pacifico', cursive;
+     		font-size: 5em;
+     		color: whitesmoke;
+			text-shadow: 2px 2px 5px brown;
+		}
+		.titulo_h5{
+			margin-top: 20px;
+			font-family: 'Cookie', cursive;
+      		font-size: 2em;
+      		color: papayawhip;
+		}
+
+
+hr{
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+	border: 1px solid #592828; /* color verde */
+        width: 100%;                /* ancho de la línea */
+}
+.card-img-top{
+	height: 250px;
+	margin-top: 30px;
+}
+.ver_detalles_button {
+	color: black;
+	background-color: burlywood;
+	box-shadow: 0 4px 10px rgba(139, 69, 19, 0.5);
+	border-radius: 7px; /* Esquinas redondeadas */
+}
+.ver_detalles_button:hover {
+	background-color: #A07A70;
+	color:white;
+	text-decoration: none;
+}
+
+footer {
+       font-size: 15px;
+       margin-top: 15%; /* Añadir margen superior para separar el pie de página del contenido */
+       padding-top: 20px;
+       padding-bottom: 20px; /* Ajusta el relleno del pie de página */
+}

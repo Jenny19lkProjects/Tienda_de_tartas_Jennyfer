@@ -1,0 +1,218 @@
+/*Section CUERPO*/
+
+/*Fototos del articulo*/
+.container1 {
+    justify-content: center;
+	margin-top: 5%;
+}
+.container1 .img_container {
+    width: 450px;
+    height: 550px;
+    margin-bottom: 7px; 
+
+
+}
+	   
+
+.container1 .img_container .main_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+    object-fit: cover;
+margin-right:300px;
+  
+}
+
+.container1 .thumbnail_container {
+    height: 80px;
+
+	display: flex;
+	 /* Centra toda la cuadrícula horizontalmente */
+ /* display: grid;
+  grid-template-columns: repeat(4, 100px);*/
+	
+}
+
+
+.container1 .thumbnail_container .thumbnail {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: .7;
+    transition: .3s;
+	justify-content: center;
+	margin-left: 25px;
+}
+
+.container1 .thumbnail_container .thumbnail:hover {
+    opacity: 1;
+}
+
+.thumbnail.active {
+    opacity:  1 !important;
+    box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+}
+
+@media (max-width: 1009px) {
+    .container1 .row {
+        flex-direction: column; /* Apilar las columnas verticalmente */
+        align-items: center; /* Centrar los elementos */
+    }
+
+   
+}
+	   
+.product-title{
+	 color: black;
+}
+.descripcion_p_Art{
+	font-family: 'Poppins', sans-serif;
+}
+	   
+	  
+/*Swiper-slide*/
+.article-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 60px;
+
+
+}
+.recipe-container {
+  background: rgba(67, 44, 29, 1);
+  background: radial-gradient(
+    circle,
+    /*rgba(207, 137, 126, 0.62) 5%,*/
+	  rgba(156,92,92,0.50) 9%,
+  rgba(67, 44, 29, 1) 100%
+  );
+	
+	
+
+  box-shadow: 0 4px 30px rgba(58, 40, 7, 0.32);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+ /* border: 1px solid rgba(255, 255, 255, 0.3);*/
+   border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  padding: 30px 0;
+  width: min(1200px, 100%);
+}
+
+.recipe-container .titulo_swiper2 {
+	   font-family: 'Pacifico', cursive;
+font-size: 60px;
+	
+ text-align: center;
+  color:white;
+	margin-bottom: 4%;
+text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.7); /* sombra marrón */
+}
+
+.swiper2 {
+  width: 80%;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.swiper-scrollbar {
+  --swiper-scrollbar-bottom: 0;
+  --swiper-scrollbar-drag-bg-color: white;
+  --swiper-scrollbar-size: 5px;
+}
+
+.post {
+	
+  max-width: 900px;
+  font-size: 1rem;
+  font-weight: 500;
+  background: rgba(67, 44, 29, 1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 16px 16px 0;
+  margin-bottom: 16px;
+}
+
+.post-img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  border-radius: 6px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.post-body {
+  display: grid;
+  grid-template-columns: 15% 60% 20%;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 0;
+  cursor: default;
+	
+}
+
+.post-name {
+	color: aliceblue;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.post-author {
+	
+  width: fit-content;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: whitesmoke;
+ 
+}
+
+
+.post-avatar {
+  width: 40px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+   font-size: 15px;
+    margin-top: 50px; /* Añadir margen superior para separar el pie de página del contenido */
+    padding-top: 20px;
+    padding-bottom: 20px; /* Ajusta el relleno del pie de página */
+	   }
+
+hr{
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+	border: 1px solid #592828; /* color verde */
+        width: 100%;                /* ancho de la línea */
+}
+.letrapequeña{
+	 font-size: 12px;
+}
+	  
+.btn-secondary {
+	color: black;
+	background-color: burlywood;
+	box-shadow: 0 4px 10px rgba(139, 69, 19, 0.5);
+	border-radius: 7px; /* Esquinas redondeadas */
+} 
+.btn-secondary:hover {
+		background-color: #A07A70;
+		color:white;
+		text-decoration: none;
+	}

@@ -1,0 +1,105 @@
+ #theadColor{
+		background-color: rgba(156,92,92,1.00); /* Fondo verde claro con transparencia */
+
+}
+	
+
+hr{
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+	border: 1px solid #592828; /* color verde */
+        width: 100%;                /* ancho de la línea */
+}
+		
+		.Pagocaja{
+			background-color: white;
+		}
+		.pago{
+			background-color: #A7B8A6;
+		}
+		#totalPago {
+		  font-weight: 900px;
+		  float: right;
+		  color: black;
+		  font-weight:bold;
+		}
+		.restarCant {
+		  display: inline-block;
+		  width: 40px; /* Ajusta el ancho según tus necesidades */
+		  height: 40px; /* Ajusta el alto según tus necesidades */
+		  border-radius: 50%; /* Convierte el botón en un círculo */
+		  background-color: #625a46; /* Establece el color de fondo a rojo */
+		  text-align: center; /* Centra el contenido horizontalmente */
+		  line-height: 40px; /* Centra el contenido verticalmente */
+		  color: white; /* Establece el color del ícono a blanco */
+		}.aumentarCant {
+		  display: inline-block;
+		  width: 40px;
+		  height: 40px;
+		  border-radius: 50%;
+		  background-color: #625a46; /* Establece el color de fondo a rojo */
+		  border-color: #28a745;
+		  text-align: center;
+		  line-height: 40px;
+		  color: white;
+		}
+		.btn_basura{
+			background-color: #8E2A2C;
+			
+		}
+		.Icono_basu{
+			text-align: right;
+		}
+		.btn_seguircomprar{
+			background-color: rgba(19, 40, 189, 0.70);
+			color: white;
+		}
+		.btn_seguircomprar:hover {
+
+		  background:rgba(22, 41, 185, 0.79);
+				color: white;
+		}
+		.btn-success{
+				background-color: rgba(80, 161, 82, 1);
+			color: white;
+		}
+		.total_pago{
+			text-align: right;
+		}
+ @media (max-width: 768px) {
+        .table thead {
+            display: none;
+			
+        }
+
+        .table tbody tr {
+            display: block;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+			
+        }
+
+        .table tbody tr td {
+            display: block;
+            text-align: center;
+       		 
+            position: relative;
+        }
+	
+
+        .table tbody tr td:before {
+            content: attr(data-title);
+            position: absolute;
+            left: 0;
+            padding-left: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+footer 
+{
+    font-size: 15px;
+    margin-top: 50px; /* Añadir margen superior para separar el pie de página del contenido */
+    padding-top: 20px;
+    padding-bottom: 20px; /* Ajusta el relleno del pie de página */
+	   }

@@ -1,0 +1,64 @@
+* {
+			margin: 0;
+			padding: 0;
+
+		}
+
+		body {
+			padding-top: 70px; /* Ajusta este valor según la altura de tu navbar */
+		}
+		.navbar{
+
+			background-color: rgba(156,92,92,1.00); /* Fondo verde claro con transparencia */
+
+
+			border: 0.5px solid rgba(76,50,50,0.88); /* Borde cadetblue con transparencia */
+
+
+			border-radius: 8px; /* Bordes redondeados */
+
+
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra difuminada para el borde */
+
+		}
+		
+		.dropdown-menu{
+			background-color: rgba(193,134,134,1.00); /* Fondo verde claro con transparencia */
+		}
+		.navbar-toggler{
+			background-color: rgba(213,174,174,1.00); /* Fondo verde claro con transparencia */
+		}
+
+		.navbar-nav .nav-link {
+			color: white; /* Cambia el color del enlace principal */
+		}
+
+		h1{
+			font-family: 'Pacifico', cursive;
+			font-size: 3em;
+			color: whitesmoke;
+		}
+		
+		
+		nav {
+		  font-family: 'Poppins', sans-serif;
+		  font-weight: 500;
+		  font-size: 1.1em;
+		  color: #333;
+		  text-decoration: none;
+		  text-transform: uppercase;
+		}
+/* Estilo para la lista de la barra de navegación */
+.navbar_user_container {
+    list-style: none; /* Elimina los puntos de la lista */
+    color:black;
+}
+.navbar_user_container .checkout a {
+   
+    text-decoration: none; /* Quita la decoración del enlace */
+    position: relative; /* Necesario para posicionar el texto emergente */
+    color:black;
+}
+.navbar_user_container .checkout{
+padding-top: 10px;
+}
