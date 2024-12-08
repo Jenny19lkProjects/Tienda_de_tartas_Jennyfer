@@ -1,10 +1,6 @@
 let ruta = `funciones/funciones_carrito.php`; //Ruta para almacenar el pedido.
 
-
-
-/**
- * Función para agregar un producto al carrito de compra desde el detalle del producto.
- */
+/*Función para agregar un producto al carrito de compra desde el detalle del producto.*/
 function agregarCarrito(btn_cart, idProduct, precio) {
   if (!btn_cart.classList.contains("loading")) {
     btn_cart.classList.add("loading");

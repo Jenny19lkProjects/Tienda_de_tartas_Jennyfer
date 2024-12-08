@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['enviar_formulario'])) 
         $mail->Host = "smtp.gmail.com";
         $mail->SMTPAuth = true;
         $mail->Username = "jenny.fuentes7enri@gmail.com"; //enter you email address
-        $mail->Password = 'rxwq eetf nitl kkgz'; //enter you email password
+        $mail->Password = 'ldai fvap pbmc cqtd'; //enter you email password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 		$mail->Port = 587;
 		

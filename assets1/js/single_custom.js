@@ -28,7 +28,7 @@ jQuery(document).ready(function($)
 	*/
 
 	var header = $('.header');
-	var topNav = $('.top_nav')
+	var topNav = $('.top_nav');
 	var hamburger = $('.hamburger_container');
 	var menu = $('.hamburger_menu');
 	var menuActive = false;
@@ -231,65 +231,7 @@ jQuery(document).ready(function($)
 		}
 	}
 
-	/* 
-
-	6. Init Star Rating
-
-	*/
-
-	function initStarRating()
-	{
-		if($('.user_star_rating li').length)
-		{
-			var stars = $('.user_star_rating li');
-
-			stars.each(function()
-			{
-				var star = $(this);
-
-				star.on('click', function()
-				{
-					var i = star.index();
-
-					stars.find('i').each(function()
-					{
-						$(this).removeClass('fa-star');
-						$(this).addClass('fa-star-o');
-					});
-					for(var x = 0; x <= i; x++)
-					{
-						$(stars[x]).find('i').removeClass('fa-star-o');
-						$(stars[x]).find('i').addClass('fa-star');
-					};
-				});
-			});
-		}
-	}
-
-	/* 
-
-	7. Init Favorite
-
-	*/
-
-	function initFavorite()
-	{
-		if($('.product_favorite').length)
-		{
-			var fav = $('.product_favorite');
-
-			fav.on('click', function()
-			{
-				fav.toggleClass('active');
-			});
-		}
-	}
-
-	/* 
-
-	8. Init Tabs
-
-	*/
+	/**Tabla */
 
 	function initTabs()
 	{
