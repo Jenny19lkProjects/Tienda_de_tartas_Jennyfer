@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!--iconocarritodecompra-->
-    <link rel="icon" type="image/x-icon" href="assets1/images/icon.png">
+    <link rel="icon" type="image/x-icon" href="assets1/images/sobre-nosotros (1).png">
   <!--Botstrap icono-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!-- Bootstrap CSS 4.5.2 -->

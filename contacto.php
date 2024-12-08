@@ -16,7 +16,7 @@ include 'sendEmail.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <!--icono compra cabecera-->
-      <link rel="icon" type="image/x-icon" href="assets1/images/icon.png">
+      <link rel="icon" type="image/x-icon" href="assets1/images/comunicar.png">
     <!-- Bootstrap 4.5.2 CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
