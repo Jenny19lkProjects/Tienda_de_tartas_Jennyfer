@@ -181,7 +181,7 @@ function formatearCantidad(cantidad) {
  */
 const solictarPedido = (codPedido) => {
   const whatsappAPI = "https://api.whatsapp.com/send?phone=";
-  const phoneNumber = "648747071";
+  const phoneNumber = "+34 648747071";
 
   const link = `http://localhost/Proyecto_Jennyfer/Tienda_de_tartas_Jennyfer/pdfPedido.php?codPedido=${codPedido}`;
   const message = `¡Hola! Me interesa el siguiente pedido: ${link}`;

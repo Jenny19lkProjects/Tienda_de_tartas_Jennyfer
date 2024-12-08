@@ -135,11 +135,7 @@
         <?php } ?>
     </div>
 	</div>
-	
     <?php include('includes/footer.html'); ?>
-   
     <?php include('includes/js.html'); ?>
-
 </body>
-
 </html>

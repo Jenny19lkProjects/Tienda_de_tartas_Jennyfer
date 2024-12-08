@@ -1,0 +1,22 @@
+header{
+	background-color: rgba(156,92,92,1.00); /* Fondo verde claro con transparencia */
+}
+
+.text-justify{
+	color: #4A2511;
+}
+.custom-image2 {
+        width: 100%; /* Asegura que la imagen ocupe el ancho completo del
+	contenedor */
+	  	
+		height: 560px;
+      
+        object-fit: cover; /* Ajusta el contenido sin distorsión */
+    }
+    .row.no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .col-12 {
+        padding: 0;
+    }

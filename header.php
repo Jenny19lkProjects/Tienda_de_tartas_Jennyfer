@@ -34,7 +34,7 @@
                     <a class="nav-link" href="contacto.php">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                    <a class="nav-link" href="sobrenosotros.php">Sobre Nosotros</a>
                 </li>
                
             </ul>
