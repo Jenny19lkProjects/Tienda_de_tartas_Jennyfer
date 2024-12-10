@@ -111,7 +111,7 @@
             <div class="col mb-2 mt-5">
                 <div class="row justify-content-md-center">
                     <div class="col-md-6 mb-4">
-                        <a href="./" class="btn btn-block btn_seguircomprar">
+                        <a href="inicio_tartas.php" class="btn btn-block btn_seguircomprar">
                             <i class="bi bi-cart-plus"></i>
                             Continuar Comprando
                         </a>

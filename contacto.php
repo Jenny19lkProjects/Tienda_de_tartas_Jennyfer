@@ -188,18 +188,21 @@ footer{
  <div class="row justify-content-center">
     <div class="col-12 col-md-8 col-lg-6 row-last mt-5">
         <div class="row row-cols-1 row-cols-md-3 p-3 text-white">
-            <div class="col mb-4">
-                <h4>CALL US</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, doloribus!</p>
-            </div>
-            <div class="col mb-4">
-                <h4>LOCATION</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, doloribus!</p>
-            </div>
-            <div class="col mb-4">
-                <h4>Email</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, doloribus!</p>
-            </div>
+        <div class="col mb-4">
+        <h4>Llámanos a:</h4>
+        <p>+34 638847298</p>
+        <p>¡Estamos disponibles de lunes a sábado, de 9:00 AM a 8:00 PM!</p>
+    </div>
+    <div class="col mb-4">
+        <h4>Localízanos en:</h4>
+        <p>Calle Lisboa, Nº 45, Madrid, España</p>
+        <p>Visítanos para disfrutar de nuestras deliciosas tartas y pasteles frescos.</p>
+    </div>
+    <div class="col mb-4">
+        <h4>Email:</h4>
+        <p>info@tartasjennyfer.com</p>
+        <p>¿Tienes preguntas o quieres realizar un pedido? ¡Escríbenos!</p>
+    </div>
         </div>
     </div>
     
